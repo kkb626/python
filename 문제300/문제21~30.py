@@ -17,18 +17,18 @@ print(string[ : :-1])
 
 # 025
 phone_number = "010-1111-2222"
-print(phone_number[0:3],phone_number[4:8],phone_number[9:13])
+print(phone_number.replace("-"," "))
 
 # 026
 phone_number = "010-1111-2222"
-print(phone_number[0:3]+phone_number[4:8]+phone_number[9:13])
+print(phone_number.replace("-",""))
 
 # 027
 url = "http://sharebook.kr"
 print(url.split(".")[1])
 
 # 028
-# python
+# 오류발생 ; 문자열 일부분은 수정 불가
 
 # 029
 string = 'abcdfe2a354a32a'
@@ -38,4 +38,4 @@ print(string.replace("a","A"))
 string = 'abcd'
 string.replace('b','B')
 print(string)
-# abcd
+# aBcd
