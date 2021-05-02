@@ -22,3 +22,58 @@
 # 5. replace() 함수
     # 문자열을 변경할 수 있는 함수
     # replace("a","b") 형태로 사용하면 문자열의 a를 b로 변환함
+
+# 6. split() 함수
+    # 특정 단위 기준으로 문자열을 구분함
+    # 괄호 안의 단위 기준. 아무것도 작성하지 않을 시 공백 기준
+    # 문자열.split()
+
+
+# 7. % formatting 이란
+    # %연산자 통해 문자열에 어떤 값 개입할 수 있음
+    # %d : 정수  %s : 문자  %f : 실수
+
+# 8. format() 함수
+    # 중괄호{} 안에 인덱스를 이용해 함수 내의 값들을 특정 순서대로 삽입 가능
+    # 문자열 : {}.format(변수)
+
+# 9. f-string
+    # 문자열 앞에 f를 추가하고 변수가 들어갈 부분에 괄호와 변수를 넣어주면 됨
+    # 데이터 탑입 상관 X
+    # f문자열 : {변수}
+
+
+# 10. strip() rstrip() lstrip() 함수
+    # strip() : 좌우 공백 제거
+    # rstrip() : 우측 공백 제거
+    # lstrip() : 좌축 공백 제거
+    # (공백 제거할 문자열).strip/rstrip/lstrip()
+
+# 11. upper() lower() capitalize() 함수
+    # upper() : 소문자를 대문자로
+    # lower() : 대문자로 소문자로
+    # capitalize() : 문자열의 첫글자만 대문자로
+    # 문자열.upper/lower/capitalize()
+
+# 12. endswith() startswith() 함수
+    # endswith() : 문자열이 특정문자로 끝나는지 여부 반환
+    # startswith() : 문자열이 특정문자로 시작하는지 여부 반환
+    # print(문자열.startswith/endswith(특정문자))
+
+# 13. 리스트와 변수 차이
+    # 변수 : 하나의 값만 저장 가능
+    # 리스트 : 여러개의 값 저장 가능
+
+# 14. append() insert() del 함수
+    # append() : 새로운 값을 맨 끝에 추가
+        # 리스트.append(추가할 값)
+    # insert() : 새로운 값을 지정한 자리에 추가
+        # 리스트.insert(위치,추가할 값)
+    # del : 특정 값 삭제
+        # del 리스트[특정 값 위치]
+
+# 15. max() min() sum() len() 함수
+    # max() : 최대값 반환
+    # min() : 최소값 반환
+    # sum() : 리스트 숫자의 합 출력
+    # len() : 리스트 안 요소의 개수 출력
