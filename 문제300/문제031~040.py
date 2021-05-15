@@ -52,6 +52,6 @@ print(int(컴마제거))
 분기 = "2020/03(E) (IFRS연결)"
 print(분기[:7])
 
-# 040
+# 040 : strip(앞뒤 공백 제거)
 data = "   삼성전자   "
 print(data.strip( ))
